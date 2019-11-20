@@ -6,7 +6,7 @@ import { withRouter } from "react-router-dom"
 import ToastMessage from './ToastMessage'
 import { getCart, calculatePrice, clearCart, calculateAmount, getToken} from './utils'
 
-const apiUrl = process.env.API_URL || 'http://avb-server.herokuapp.com'
+const apiUrl = process.env.API_URL || 'https://avb-server.herokuapp.com'
 
 
 function _CheckoutForm (props) {

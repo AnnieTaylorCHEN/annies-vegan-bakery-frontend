@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 
 import { calculatePrice, getCart, setCart} from './utils'
 
-const apiUrl = process.env.API_URL || 'http://avb-server.herokuapp.com/graphql'
-const imageUrl = process.env.API_URL || 'http://avb-server.herokuapp.com/'
+const apiUrl = process.env.API_URL || 'https://avb-server.herokuapp.com/graphql'
+const imageUrl = process.env.API_URL || 'https://avb-server.herokuapp.com/'
 
 export default function Products({match}) {
     const query = `query {

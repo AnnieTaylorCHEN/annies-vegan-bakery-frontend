@@ -4,7 +4,7 @@ import axios from 'axios'
 import ToastMessage from './ToastMessage'
 import { setToken} from './utils'
 
-const apiUrl = process.env.API_URL || 'http://avb-server.herokuapp.com/auth/local'
+const apiUrl = process.env.API_URL || 'https://avb-server.herokuapp.com/auth/local'
 
 
 export default function Signin({history}) {
